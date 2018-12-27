@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style media="screen">
+      <style
+    <style type="text/css">
+   * {
+      margin: 0;
+      padding: 0;
+    }
+    .header{
+      width: 970px;
+      height: 103px;
+      margin: 0 auto;
+    }
+   .header .logo{
+     float: left;
+     width: 277px;
+     height: 103px;
+     background-color: red;
+    }
+   .header .language{
+     float: right;
+     width: 137px;
+     height: 49px;
+     margin-bottom: 8px;
+     background-color: lawngreen;
+    }
+   .header .nav{
+     float: right;
+     width: 679px;
+     height: 46px;
+     background-color: lawngreen;
+   }
+    .content{
+      width: 970px;
+      height:435px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    .content .banner{
+      float: left;
+      width: 310px;
+      height: 435px;
+      background-color: gold;
+      margin-right: 10px;
+    }
+    .content .rightpart{
+      float: left;
+      width: 650px;
+      height: 435px;
+    }
+    .content .rightpart .main{
+      width: 650px;
+      height: 400px;
+      margin-bottom: 10px;
+    }
+    .content .rightpart .main .news{
+      float: left;
+      width: 450px;
+      height: 400px;
+    }
+    .content .rightpart .main .news .top{
+      width: 450px;
+      height: 240px;
+      margin-bottom: 10px;
+      background-color: cornflowerblue;
+    }
+    .content .rightpart .main .news .middle{
+      width: 450px;
+      height: 110px;
+      margin-bottom: 10px;
+      background-color: cornflowerblue;
+    }
+    .content .rightpart .main .news .bottom{
+      width: 450px;
+      height: 30px;
+      background-color: cornflowerblue;
+    }
+    .content .rightpart .main .sider{
+      float: left;
+      width: 190px;
+      height: 400px;
+      background-color: purple;
+      margin-left: 10px;
+    }
+    .content .rightpart .links{
+      width: 650px;
+      height: 25px;
+      background-color: darkgreen;
+    }
+    .footer{
+      width: 970px;
+      height: 35px;
+      margin: 0 auto;
+      margin-top: 10px;
+      background-color: darkslateblue;
+    }
+  </style>
+</head>
+<body>
+<！头部>
+<div class="header ">
+  <div class="logo">logo</div>
+  <div class="language">language</div>
+  <div class="nav">导航条</div>
+</div>
+<!主要内容>
+<div class="content">
+  <div class="banner">大广告</div>
+  <div class="rightpart">
+    <div class="main">
+      <div class="news">
+        <div class="top">news1</div>
+        <div class="middle">news2</div>
+        <div class="bottom">news3</div>
+      </div>
+      <div class="sider">sider</div>
+    </div>
+    <div class="links">links</div>
+  </div>
+</div>
+<!页尾>
+<div class="footer">footer</div>
+</body>
+</html>
