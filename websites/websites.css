@@ -42,28 +42,31 @@ html,body{
     overflow: hidden;
 }
 .bottom{
-    position: relative;
+    position: fixed;
+    width: 100%;
     top: 34.05rem;
 }
 .bottom .left{
+    display: inline-block;
+    float: right;
     text-align: center;
-    float: left;
     width: 50%;
     color: #eaf8f9;
     font-size: 0.95rem;
 }
-.right img{
+.left img{
     width: 4.2rem;
     height: 4.2rem;
 }
 .bottom .right{
+    display: inline-block;
+    float: left;
     text-align: center;
-    float: right;
     width: 50%;
     color: #f7fcfd;
     font-size: 0.95rem;
 }
-.left img{
+.right img{
     width: 4.2rem;
     height: 4.2rem;
 }
