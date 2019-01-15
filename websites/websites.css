@@ -27,14 +27,13 @@ html,body{
     height: 3.5rem;
 }
 .content{
-    position: fixed;
     margin-top: 15.4rem;
     padding: 0 14%;
     display: flex;
     justify-content: center;
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     line-height: 2.7rem;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.1rem;
     color: #e4f6f8;
 }
 .bottom{
