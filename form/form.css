@@ -24,7 +24,7 @@ html body{
 #login{
     position: absolute;
     top: 1.45rem;
-    padding: 0 45%;
+    padding-left: 14.3rem;
     font-size: 1.7rem;
 }
 #register{
@@ -79,7 +79,7 @@ button{
     height: 5rem;
     background-color: #5fc0cd;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #f8fcfc;
 }
 a{
