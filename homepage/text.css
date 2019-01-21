@@ -1,0 +1,28 @@
+html{
+    font-size:62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+}
+.header{
+    position: fixed;
+    height: 4.25rem;
+    background-color: #5fc0cd;
+    z-index: 100;
+}
+.back{
+    position: fixed;
+    padding-top: 1.35rem;
+    padding-left: 4.9%;
+}
+.homepage{
+    position: fixed;
+    padding-top: 1.35rem;
+    color: #f8fcfc;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+}

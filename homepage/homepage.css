@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: SimSun-ExtB,sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    height: 4.25rem;
+    width: 100%;
+    color: #f8fcfc;
+    background-color: #5fc0cd;
+}
+.back{
+    position: fixed;
+    padding-top: 1.35rem;
+    padding-left: 4.9%;
+}
+.homepage{
+    position: fixed;
+    padding-top: 1.35rem;
+    color: #f8fcfc;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.document{
+    position: absolute;
+    top: 4.25rem;
+}
+.photo{
+    position: absolute;
+    top: 3.9rem;
+    left: 1.5rem;
+}
+.local{
+    position: absolute;
+}
+.content{
+}
+.title{
+    margin: 1px auto;
+    padding-left: 1.5rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+}
+.data{
+    margin-left: 1.8rem;
+    display: flex;
+    flex-direction: column;
+}
+.interface{
+    position: relative;
+    margin-top: 1px;
+    border: #5fc0cd;
+}
+.interface img{
+}
+.skill{
+    position: absolute;
+    top: 1.2rem;
+    left: 2.1rem;
+    right: 2.1rem;
+}
+.requirements{
+    position: absolute;
+    color: lightgray;
+}
+.button{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    margin-top: 3.45rem;
+    width: 15.5rem;
+    height: 4.4rem;
+    border: 1px solid  #5fc0cd;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    background-color: #ffffff;
+    color: #5fc0cd;
+    outline:medium;
+}
+.iphone{
+    margin-top: 3.45rem;
+    width: 15.5rem;
+    height: 4.4rem;
+    color: #f8fcfc;
+    border: 1px solid #5fc0cd;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    background-color: #5fc0cd;
+    outline:medium;
+}
