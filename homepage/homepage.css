@@ -1,100 +1,130 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 html,body{
-    font-size: 62.5%;
-    font-family: SimSun-ExtB,sans-serif;
+    font-size:62.5%;
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .header{
     position: fixed;
     top: 0;
-    height: 4.25rem;
     width: 100%;
-    color: #f8fcfc;
+    height: 4.25rem;
     background-color: #5fc0cd;
 }
 .back{
-    position: fixed;
+    position: absolute;
     padding-top: 1.35rem;
     padding-left: 4.9%;
 }
 .homepage{
-    position: fixed;
-    padding-top: 1.35rem;
-    color: #f8fcfc;
-    width: 100%;
     text-align: center;
+    padding-top: 1.35rem;
+    color: #f8fcff;
     font-size: 1.7rem;
 }
-.document{
-    position: absolute;
-    top: 4.25rem;
+.information{
+    height: 17.3rem;
+    margin-top: 4.25rem;
+    background-image: url(背景.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
 }
 .photo{
-    position: absolute;
-    top: 3.9rem;
-    left: 1.5rem;
+    padding-top: 4.2rem;
+    padding-left: 1.6rem;
+}
+.name{
+    font-size: 1.9rem;
+    padding-top: 6.2rem;
+    padding-left:2.1rem;
+}
+.age{
+    display: inline-block;
+    padding-top: 6.2rem;
+    padding-left:1.2rem;
+    font-size: 1.5rem;
 }
 .local{
     position: absolute;
+    padding-top: 1.3rem;
+    padding-left:2.3rem;
 }
-.content{
-}
-.title{
-    margin: 1px auto;
-    padding-left: 1.5rem;
-    height: 4.5rem;
-    font-size: 1.5rem;
-}
-.data{
-    margin-left: 1.8rem;
-    display: flex;
-    flex-direction: column;
-}
-.interface{
-    position: relative;
-    margin-top: 1px;
-    border: #5fc0cd;
-}
-.interface img{
+.address{
+    padding-top: 1.1rem;
+    padding-left: 14.6rem;
+    font-size: 1.3rem;
 }
 .skill{
-    position: absolute;
-    top: 1.2rem;
-    left: 2.1rem;
-    right: 2.1rem;
+    height: 3.5rem;
+    padding-top: 1.7rem;
+    padding-left: 1.6rem;
+    font-size: 1.7rem;
+    color: #4d4d4d;
 }
-.requirements{
-    position: absolute;
-    color: lightgray;
+.line{
+    display: block;
+    width: 100%;
 }
-.button{
+.accommodation{
+    height: 3.5rem;
+    padding-top: 1.7rem;
+    padding-left: 3.2rem;
+    font-size: 1.7rem;
+    color: #4d4d4d;
+}
+.introduce{
+    padding-left: 1.75rem;
+}
+.terms{
+    height: 3.5rem;
+    padding-top: 1.7rem;
+    padding-left: 1.3rem;
+    font-size: 1.7rem;
+}
+.item{
+    display: block;
+    float: left;
+    color: #999999;
+}
+.cut{
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+.footer{
+    width: 100%;
     position: fixed;
     bottom: 0;
+}
+.button{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
 .text{
-    margin-top: 3.45rem;
-    width: 15.5rem;
+    width: 40%;
     height: 4.4rem;
-    border: 1px solid  #5fc0cd;
-    border-radius: 5px;
-    font-size: 1.7rem;
-    background-color: #ffffff;
-    color: #5fc0cd;
-    outline:medium;
-}
-.iphone{
-    margin-top: 3.45rem;
-    width: 15.5rem;
-    height: 4.4rem;
-    color: #f8fcfc;
     border: 1px solid #5fc0cd;
     border-radius: 5px;
     font-size: 1.7rem;
-    background-color: #5fc0cd;
     outline:medium;
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+.iphone{
+    width: 40%;
+    height: 4.4rem;
+    border: 1px solid #5fc0cd;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    outline:medium;
+    background-color: #5fc0cd;
+    color: #f8fcfc;
 }
