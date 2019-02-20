@@ -1,0 +1,212 @@
+html body {
+    font-size: 62.5%;
+    font-family: SimSun-ExtB, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+span{
+    color: #e1e5e7;
+    font-size: 1.3rem;
+    margin-left: 0.8rem;
+}
+p{
+    font-size: 1.4rem;
+    font-family: Arial;
+    color: #333333;
+    margin-left: 2.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.bg-编辑 {
+    width: 94px; height: 94px;
+    background: url('css_sprites.png') -10px -10px;
+}
+.bg-地址 {
+    width: 19px; height: 23px;
+    background: url('css_sprites.png') -122px -74px;
+}
+.bg-定位 {
+    width: 42px; height: 44px;
+    background: url('css_sprites.png') -124px -10px;
+}
+.bg-日历 {
+    width: 24px; height: 24px;
+    background: url('css_sprites.png') -186px -124px;
+}
+.bg-首页 {
+    width: 46px; height: 40px;
+    background: url('css_sprites.png') -10px -124px;
+}
+.bg-我的 {
+    width: 42px; height: 41px;
+    background: url('css_sprites.png') -186px -10px;
+}
+.bg-详情 {
+    width: 19px; height: 33px;
+    background: url('css_sprites.png') -186px -71px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #5fc0cd;
+    z-index: 1;
+}
+.middle{
+    position: relative;
+    left: 30%;
+    top: 0.6rem;
+    width: 40%;
+    height: 3.5rem;
+    background-color: #55a8b3;
+    border-radius: 10px;
+}
+.left{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 3.5rem;
+    color: #ffffff;
+    background-color: #55a8b3;
+    border: 1px solid #55a8b3;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    outline: none;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 3.5rem;
+    color: #5fc0cd;
+    background-color: #ffffff;
+    border: 1px solid #55a8b3;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    outline: none;
+    cursor: pointer;
+}
+.bg-定位{
+    position: absolute;
+    top: 1rem;
+    right:10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(0.8)
+}
+.filter{
+    position: absolute;
+    top: 4.5rem;
+    width: 100%;
+    height: 4rem;
+    background-color: #ffffff;
+    display: flex;
+}
+.kind{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.3rem;
+    border-right: 1px solid;
+    border-image: -webkit-linear-gradient(#ffffffff,#e1e5e7,#ffffff) 0 20%;
+    border-image: -moz-linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 20%;
+    border-image: linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 20%;
+}
+select{
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    margin-left: -52px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    color: #999999;
+    box-shadow: none;
+    box-sizing:border-box;
+    background:none;
+}
+option{
+    font-size:80%;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+.list{
+    position: relative;
+    top: 8.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.information{
+    border-top: 1px solid #e1e5e7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.list-left{
+    margin: 1.5rem auto 1.4rem 1.6rem;
+}
+.bg-日历{
+    display: inline-block;
+    vertical-align: text-bottom;
+    transform: scale(0.8)
+}
+.bg-地址{
+    display: inline-block;
+    vertical-align: text-bottom;
+    transform: scale(0.8)
+}
+.list-right{
+    margin: 3.9rem 1.5rem auto auto;
+}
+.bg-详情{
+    display: inline-block;
+    margin-left: 1rem;
+    vertical-align: bottom;
+    transform: scale(0.8);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #f8fafb;
+    font-size: 0.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: top;
+}
+.bg-首页{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(0.8)
+}
+.bg-编辑{
+    top: -1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(0.7)
+}
+.bg-我的{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(0.8)
+}
+
