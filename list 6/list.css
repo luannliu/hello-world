@@ -115,9 +115,9 @@ p{
     height: 4rem;
     font-size: 1.3rem;
     border-right: 1px solid;
-    border-image: -webkit-linear-gradient(#ffffffff,#e1e5e7,#ffffff) 0 20%;
-    border-image: -moz-linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 20%;
-    border-image: linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 20%;
+    border-image: -webkit-linear-gradient(#ffffffff,#e1e5e7,#ffffff) 0 10%;
+    border-image: -moz-linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 10%;
+    border-image: linear-gradient(#ffffff,#e1e5e7,#ffffff) 0 10%;
 }
 select{
     position: relative;
@@ -201,16 +201,10 @@ option{
     background-color: #f8fafb;
 }
 .footer-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align-last: center;
     margin-bottom: 0.7rem;
 }
 .footer-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align-last: center;
     margin-bottom: 0.7rem;
 }
@@ -227,7 +221,6 @@ option{
     transform: scale(0.6)
 }
 .bg-我的{
-    display: inline-block;
     border: none;
     outline: none;
     cursor: pointer;
