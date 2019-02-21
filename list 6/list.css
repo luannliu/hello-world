@@ -1,6 +1,7 @@
-html body {
+html  {
     font-size: 62.5%;
-    font-family: SimSun-ExtB, sans-serif;
+}
+body{
     width: 100%;
     height: 100%;
 }
@@ -94,12 +95,12 @@ p{
 }
 .bg-定位{
     position: absolute;
-    top: 1rem;
+    top: 0.3rem;
     right:10%;
     border: none;
     outline: none;
     cursor: pointer;
-    transform: scale(0.8)
+    transform: scale(0.5)
 }
 .filter{
     position: absolute;
@@ -157,12 +158,12 @@ option{
 }
 .bg-日历{
     display: inline-block;
-    vertical-align: text-bottom;
+    vertical-align: middle;
     transform: scale(0.8)
 }
 .bg-地址{
     display: inline-block;
-    vertical-align: text-bottom;
+    vertical-align: middle;
     transform: scale(0.8)
 }
 .list-right{
@@ -171,42 +172,55 @@ option{
 .bg-详情{
     display: inline-block;
     margin-left: 1rem;
-    vertical-align: bottom;
-    transform: scale(0.8);
+    vertical-align: middle;
+    transform: scale(0.5);
     border: none;
     outline: none;
     cursor: pointer;
     box-shadow: none;
 }
 .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 4.5rem;
+    height: 6rem;
+    font-size: 1rem;
     background-color: #f8fafb;
-    font-size: 0.8rem;
-    text-align: center;
+}
+.footer-left{
     display: flex;
-    justify-content: space-around;
-    vertical-align: top;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+    margin-bottom: 0.7rem;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+    margin-bottom: 0.7rem;
 }
 .bg-首页{
     border: none;
     outline: none;
     cursor: pointer;
-    transform: scale(0.8)
+    transform: scale(0.55)
 }
 .bg-编辑{
-    top: -1rem;
     border: none;
     outline: none;
     cursor: pointer;
-    transform: scale(0.7)
+    transform: scale(0.6)
 }
 .bg-我的{
+    display: inline-block;
     border: none;
     outline: none;
     cursor: pointer;
-    transform: scale(0.8)
+    transform: scale(0.55)
 }
 
