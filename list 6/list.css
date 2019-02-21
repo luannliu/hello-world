@@ -123,7 +123,7 @@ select{
     position: relative;
     top: 1rem;
     left: 50%;
-    margin-left: -52px;
+    margin-left: -40px;
     border: none;
     outline: none;
     font-size: 1.3rem;
@@ -169,11 +169,21 @@ option{
 .list-right{
     margin: 3.9rem 1.5rem auto auto;
 }
+.price{
+    display: inline-block;
+    margin: 0;
+    width: 7rem;
+    line-height: 3rem;
+    color: #e63b0e;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
 .bg-详情{
     display: inline-block;
     margin-left: 1rem;
-    vertical-align: middle;
-    transform: scale(0.5);
+    vertical-align: text-bottom;
+    transform: scale(0.45);
     border: none;
     outline: none;
     cursor: pointer;
