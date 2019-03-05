@@ -1,0 +1,83 @@
+html  {
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #29bde0;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+.bg-aside {
+    width: 34px; height: 27px;
+    background: url('css_sprites.png') -10px -307px;
+}
+.bg-next {
+    width: 28px; height: 56px;
+    background: url('css_sprites.png') -381px -10px;
+}
+.bg-back {
+    width: 24px; height: 40px;
+    background: url('css_sprites.png') -381px -86px;
+}
+.bg-audio {
+    width: 52px; height: 52px;
+    background: url('css_sprites.png') -10px -235px;
+}
+.bg-cure {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -60px -354px;
+}
+.bg-exit {
+    width: 36px; height: 36px;
+    background: url('css_sprites.png') -272px -235px;
+}
+.bg-hunter {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -110px -354px;
+}
+.bg-kill {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -10px -354px;
+}
+.bg-menu {
+    width: 39px; height: 40px;
+    background: url('css_sprites.png') -213px -235px;
+}
+.bg-prove {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -328px -235px;
+}
+.bg-feedback {
+    width: 40px; height: 40px;
+    background: url('css_sprites.png') -153px -235px;
+}
+.bg-home {
+    width: 51px; height: 42px;
+    background: url('css_sprites.png') -82px -235px;
+}
+.bg-victory {
+    width: 351px; height: 205px;
+    background: url('css_sprites.png') -10px -10px;
+}
+header{
+    background-color: #29bde0;
+    height: 7.8vh;
+}
+header button{
+    margin-top: 2.7vh;
+    margin-left: 2.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(0.7);
+}
