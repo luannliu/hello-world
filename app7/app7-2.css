@@ -125,8 +125,6 @@ audio {
 .row{
     list-style: none;
     outline: none;
-    margin: 0;
-    padding: 0;
 }
 li{
     float: left;
@@ -135,17 +133,18 @@ li{
     height:0;
     padding-top: 18%;
     margin-left: 6vw;
-    margin-top: 10%;
+    margin-top: 6%;
     border: 5px solid #ffffff;
     background-color: #f5c97b;
     text-align: center;
 }
 .operation{
     display: none;
+    width: 100%;
 }
 .choose{
     display: flex;
-    width: 100%;
+    font-size: 0;
 }
 li:hover .operation{
     display: block;
