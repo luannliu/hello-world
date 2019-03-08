@@ -38,7 +38,7 @@ button{
     background-size: 100%;
 }
 .bg-prove {
-    width: 30vw; height: 7vw;
+    width: 40vw; height: 7vw;
     background: url('css_sprites7-22.png') no-repeat -0 66.66%;
     background-size: 100%;
 }
@@ -145,7 +145,7 @@ audio {
 }
 .choose{
     width: 25vw;
-    display: flex;0
+    display: flex;
     justify-content: space-between;
 }
 .box:hover .operation{
