@@ -85,13 +85,14 @@ hr{
     font-weight:lighter;
     text-align-last: center;
 }
-.box button{
-    margin-top: 2.7vh;
-    margin-bottom: 1.8vh;
-    font-size: 2.8vh;
-    font-weight:lighter;
+.button{
     width: 80%;
     height: 11.8vh;
+    margin-top: 2.7vh;
+    margin-bottom: 1.8vh;
+    color: #ffffff;
+    font-size: 2.8vh;
+    font-weight:lighter;
     background-color: #69d1e9;
     border: 1px solid #d7f3f9;
     border-radius: 0;
