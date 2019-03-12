@@ -52,8 +52,8 @@ header button{
     font-size: 0.8rem;
     font-weight: 200;
 }
-.navbar-header>a:visited{
-    color: #ffffff;
+.navbar-default .navbar-header>a{
+    color: #ffffff!important;
 }
 .navbar-header>a:focus,a:hover{
     color: #ffffff!important;
