@@ -99,7 +99,7 @@ header{
     margin: 0;
 }
 header p{
-    font-size: 1rem;
+    font-size: 1vmax;
     line-height: 2.5rem;
     color: #67c097;
     margin: 0;
@@ -146,7 +146,7 @@ header span{
     float: none;
     color: black;
     height: 1rem;
-    font-size:1.2rem;
+    font-size:1.2vmax;
     padding:0;
 }
 @media screen and ( max-width: 768px ) {
@@ -174,7 +174,7 @@ main{
 .connection{
     height: 15vmax;
     margin-top: 9vw;
-    font-size: 0.9rem;
+    font-size: 0.9vmax;
 }
 .count{
     height: 12vmax;
@@ -194,7 +194,7 @@ main{
     text-align: center;
 }
 .method{
-    font-size: 0.7rem;
+    font-size: 0.7vmax;
     text-align: center;
 }
 .path{
@@ -209,7 +209,7 @@ main{
     height: 4vw;
     width: 4vw;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.9vmax;
     line-height: 4vw;
     color: #29b078;
     background-color: #ffffff;
@@ -220,12 +220,12 @@ main{
     display: inline-block;
 }
 .stu{
-    font-size: 0.9rem;
+    font-size: 0.9vmax;
     margin-top: 6vw;
     text-align: center;
 }
 .introduce{
-    font-size: 0.8rem;
+    font-size: 0.8vmax;
     color: #999999;
 }
 .stu [class*="bg-"]{
@@ -275,7 +275,7 @@ main{
     margin-top: 5vw;
     padding-bottom: 1vw;
     padding-top: 1.1vw;
-    font-size: 0.7rem;
+    font-size: 0.7vmax;
     text-align: center;
     background-color: #ffffff;
 }
@@ -312,7 +312,7 @@ main{
 }
 footer{
     position: relative;
-    font-size: 0.8rem;
+    font-size: 0.8vmax;
     padding-top: 1.9vw;
     color: #ffffff;
     font-weight: 500;
@@ -359,7 +359,7 @@ footer .about{
     margin:0;
 }
 .record{
-    font-size: 0.6rem;
+    font-size: 0.6vmax;
     line-height: 1.5vw;
     word-spacing: 4px;
     text-align: center;
