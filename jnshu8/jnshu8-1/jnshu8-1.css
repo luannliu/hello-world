@@ -99,7 +99,7 @@ header{
     margin: 0;
 }
 header p{
-    font-size: 1vmax;
+    font-size: 1rem;
     line-height: 2.5rem;
     color: #67c097;
     margin: 0;
@@ -275,7 +275,7 @@ main{
     margin-top: 5vw;
     padding-bottom: 1vw;
     padding-top: 1.1vw;
-    font-size: 0.7vmax;
+    font-size: 0.7vw;
     text-align: center;
     background-color: #ffffff;
 }
@@ -364,6 +364,8 @@ footer .about{
     word-spacing: 4px;
     text-align: center;
     border-top: 1px solid #32c086;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .record p{
     margin: 0;
