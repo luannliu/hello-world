@@ -365,3 +365,6 @@ footer .about{
     text-align: center;
     border-top: 1px solid #32c086;
 }
+.record p{
+    margin: 0;
+}
