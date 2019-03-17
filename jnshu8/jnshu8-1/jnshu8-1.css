@@ -134,6 +134,9 @@ header span{
     width: 17px!important; 
     height: 2px!important;
 }
+#navbar-collapse{
+    border: none;
+}
 .collapsed{
     background-color: rgba(255, 255, 255, 0.4);
     border: none;
@@ -220,8 +223,10 @@ main{
     display: inline-block;
 }
 .stu{
+    position: relative;
     font-size: 0.9vmax;
     margin-top: 6vw;
+    margin-bottom: 5vw;
     text-align: center;
 }
 .introduce{
@@ -240,6 +245,11 @@ main{
 }
 .stu .carousel-indicators{
     bottom: -4vw;
+}
+@media screen and ( max-width: 768px ) {
+    .stu .carousel-indicators{
+        bottom: -8vw;
+    }
 }
 .stu .carousel-indicators li{
     background-color: #ffffff;
@@ -270,6 +280,14 @@ main{
 .company:hover{
     z-index: 10;
     box-shadow: #999999 0px 0px 10px;
+}
+.logo img{
+    height: 9.2vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 .links{
     margin-top: 5vw;

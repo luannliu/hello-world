@@ -74,6 +74,9 @@ header span{
     width: 17px!important; 
     height: 2px!important;
 }
+#navbar-collapse{
+    border: none;
+}
 .collapsed{
     background-color: rgba(255, 255, 255, 0.4);
     border: none;
@@ -117,6 +120,11 @@ main{
 }
 .title a{
     color: #29b078;
+}
+.nav-pills>li>a:hover{
+    color: #ffffff;
+    border-radius: 0;
+    background-color: #29b078;
 }
 .nav-pills{
     margin-bottom: 1.25vw;
@@ -168,7 +176,7 @@ main{
 }
 .box:hover .hover{
     display: block;
-    animation: sport 1s;
+    animation: sport;
 }
 @keyframes sport {
     from  {transform: translateY(100%);opacity: 0;}
@@ -234,12 +242,6 @@ main{
 .box-1-detail .calc{
     display: inline-block;
 }
-
-
-
-
-
-
 footer{
     position: relative;
     font-size: 0.8vmax;
