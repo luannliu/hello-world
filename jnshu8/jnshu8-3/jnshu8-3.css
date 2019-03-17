@@ -108,8 +108,131 @@ header span{
 .navbar-nav>li>a:hover{
     border-bottom: 2px solid #ffffff;
 }
-
-
+main{
+    margin-bottom: 12.4vw;
+}
+.title{
+    margin-top: 1.7vw;
+    margin-bottom: 1.56vw;
+}
+.title a{
+    color: #29b078;
+}
+.nav-pills{
+    margin-bottom: 1.25vw;
+}
+.nav-pills>li>span{
+    display: inline-block;
+    color: #afafaf;
+    padding: 3px 4px;
+}
+.nav-pills>li>a{
+    padding: 1px 2px;
+    margin-left: 1.3vw;
+    margin-right: 0.7vw;
+    color: black;
+}
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+    color: #ffffff;
+    border-radius: 0;
+    background-color: #29b078;
+}
+.boxes{
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+.col{
+    padding: 0;
+}
+.box{
+    position: relative;
+    padding-top: 1vw;
+    margin-bottom: 2.5vw;
+    margin-right:  1.4vw;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 0 0 5px #dddbdb;
+    border: none;
+}
+.hover{ 
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 4.53vw;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: rgba(61, 61, 61, 0.8);
+    z-index: 10;
+}
+.box:hover .hover{
+    display: block;
+    animation: sport 1s;
+}
+@keyframes sport {
+    from  {transform: translateY(100%);opacity: 0;}
+    to {transform: translateY(0px);opacity: 1}
+}
+.hover .hover-title{
+    padding-bottom: 2vw;
+    text-align: center;
+}
+.hover .hover-content{
+    width: 70%;
+    margin: 0 auto;
+}
+.box-header{
+    margin-top: 1vw;
+    display: flex;
+}
+@media screen and ( max-width: 768px ) {
+    .detail{
+        flex-direction: column;
+    }
+}
+.box-header .photo{
+    margin-left: 15px;
+}
+.box-duty{
+    margin-left: 1vw;
+    font-size: 0.73vw;
+}
+.box-content{
+    width: 100%;
+    font-size: 0.6vw;
+    margin-top: 1vw;
+    line-height: 2.86vmax;
+}
+.box-detail{
+    padding-left: 1vw;
+    border: 1px solid #dddbdb;
+    border-left: none;
+    border-right: none;
+}
+.box-1-detail{
+    padding-left: 1vw;
+    border: 1px solid #dddbdb;
+    border-left: none;
+}
+.box-2-detail{
+    padding-left: 1vw;
+    border: 1px solid #dddbdb;
+    border-right: none;
+}
+.box-content .red{
+    color: #f24b42;
+}
+.box-content .grey{
+    color: #afafaf;
+}
+.box-2-detail .right{
+    float: right;
+    margin-right: 1vw;
+}
+.box-1-detail .calc{
+    display: inline-block;
+}
 
 
 
