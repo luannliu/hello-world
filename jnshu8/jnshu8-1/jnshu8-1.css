@@ -106,6 +106,7 @@ header p{
 }
 header span{
     float: right;
+    text-align: right;
 }
 header button{
     margin: 0.4rem;
