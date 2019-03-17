@@ -127,6 +127,9 @@ main{
     border-radius: 4px;
     box-shadow: 0 0 5px #e1e1e1;
 }
+.company-col{
+    padding: 0;
+}
 .nav-tabs{
     display: flex;
     flex-direction: column;
@@ -165,7 +168,6 @@ main{
 }
 #mytabcontent{
     background-color: #ffffff;
-    padding: 0;
     padding-top: 0.94vw;
     border-radius: 4px;
     box-shadow: 0 0 5px #e1e1e1;
