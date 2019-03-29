@@ -1,0 +1,465 @@
+html  {
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+*{
+    margin:0;
+    padding:0;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+header{
+    background-color: #1d7ad9;
+}
+header span{
+    font-size: 1rem;
+    color: #ffffff;
+}
+.box-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-btn {
+    width: 5.4rem;
+    height: 4rem;
+    margin: 0;
+    border-radius: 0;
+    border-color: #fff;
+    background-color: #1d7ad9;
+    color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 1.6rem;
+}
+.header-btn:hover,.header-btn:focus {
+    width: 10.4rem;
+    height: 4rem;
+    border-radius: 0;
+    border-color: #fff;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 1.6rem;
+    background-color: #ffffff;
+    color: #333;
+    outline: none;
+}
+.header-btn:active{
+    background-color: #ffffff;
+    outline: none;
+}
+@media only screen and (max-width: 360px) {
+    .header-btn:active,.header-btn:hover,.header-btn:focus{
+        width: 5.4rem;
+    }
+}
+@media only screen and (min-width: 360px) {
+    .header-btn:active,.header-btn:hover,.header-btn:focus {
+        width: 10.4rem;
+    }
+}
+main{
+    margin-bottom: 5.4rem;
+}
+.nav{
+    background-color: #f9f9f9;
+    border: none;
+}
+.nav-box {
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-button {
+    height: 4rem;
+    margin-left: 6rem;
+    font-size: 1.6rem;
+    background-color: #ffffff;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+    color: #333;
+}
+.nav-button:hover,.nav-button:focus ,.nav-button:active  {
+    background-color: #1d7ad9;
+    color: #fff;
+    outline: none;
+}
+@media only screen and (max-width:530px) {
+    .nav-button {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+/*以下进度条*/
+.progress{
+    height: 100%;
+    background-color: #ffffff;
+}
+.progress .row{
+    padding-right: 15px;/*使边界一致*/
+    display: flex;
+    justify-content: flex-end;/*使整体在右边*/
+}
+/*以下是对“-0-”书写*/
+.progress-box{
+    margin-top: 2rem;
+}
+.progress-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.shape {
+    background-color: #ccc;/*为了减少代码，合并（选择器只能从父到子，从高到底）*/
+}
+.progress-shape .left, .right { /*是对“- -”书写*/
+    width: 50px;
+    height:5px;
+    margin: 10px 0;
+}
+.progress-shape .mid{ /*是对“0”书写*/
+    width: 24px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.progress-text { /*是对文字*/
+    text-align: center;
+    color: #ccc;
+    font-weight: 500;
+}
+/*以上是对“-0-”书写*/
+/*以下是hover效果*/
+.progress-box:hover .shape{
+    background-color: #ff7f02;
+}
+.progress-box:hover .progress-text{
+    color: #ff7f02;
+}
+/*以上是hover效果*/
+.path .title{
+    padding-left: 7px;
+    margin-bottom: 1rem;
+    border-left: 3px solid #1d7ad9;
+    font-size: 1.5rem; 
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+.path p{
+    margin-bottom: 0;
+}
+.path label{
+    margin: 0;
+}
+.path-main{
+    position: relative;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 0;
+}
+.step-title{
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 2rem;
+    background-color: #f3f3f3;
+}
+.step-word{
+    margin-left: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #1d7ad9;
+}
+.first{
+    border-radius: 5px 5px 0 0 ;
+    border: 1px solid #e7e7e7;
+}
+.step-content{
+    height: 8.6rem;
+    line-height: 8.6rem;
+    background-color: #fbfcff;
+    border: 1px solid #e7e7e7;
+}
+.content-choose{
+    color: #a1a1a3;
+    background-color: #fbfcff;
+}
+input[type="radio"] + label::before {/*设置没有点击时 出来的效果*/
+    content: ""; 
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    border: 1px solid #d7d7d7;
+}
+input[type="radio"]:checked + label::before {/*设置没有点击时 出来的效果*/
+    border: 0.55rem solid #1d7ad9;
+}
+input[type="radio"] {/*隐藏原有样式*/
+    opacity: 0;
+}
+.select-box1{
+    float: right;
+}
+@media only screen and (max-width:530px) {
+    .select-box1{
+        float: left;
+    }
+}
+select {
+    /* 更改默认边框 */
+    border: 1px solid #e8e8e8;
+    /* 清除select聚焦时候的边框颜色 */
+    outline: none;
+    /* 设置select的宽高及布局 */
+    width: 12.7rem;
+    height: 3.7rem;
+    line-height: 3.7rem;
+    margin-top: 2.2rem;
+    padding-left: 5px;
+    color: #a9a9a9;
+    font-size: 1.4rem;
+    /* 隐藏下拉图标 */
+    appearance:none;
+    -moz-appearance:none; 
+    -webkit-appearance:none;
+    /* 设置新的下拉图标 */
+    background: url('img/arrow.png') right no-repeat;
+    background-position: 9.6rem;
+    background-color: #ffffff;
+}
+select::-ms-expand {    
+    display: none;/*清除IE默认下拉按钮，但是测试发现IE10以上有效，IE8，9默认下拉按钮仍旧存在*/
+}
+.selectoption{
+    display: none;
+}
+input[type="text"] {/*设置text的效果*/
+    width: 6rem;
+    height: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #d7d7d7;
+}
+.step .second1{
+    border-bottom: 1px solid transparent;
+}
+.step .second2{
+    border-top: 1px solid transparent;
+}
+.next{
+    margin: 0;
+    height: 28.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e8e8e8;
+}
+.next button{
+    width: 17.9rem;
+    height: 4.6rem;
+    margin-top: 6rem;
+    background-color: #e15053;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.next button:hover{
+    background-color: #e15053;
+    color: #fff;
+}
+.next button:focus{
+    outline: none;
+    background-color: #e15053;
+    color: #fff;
+}
+.next button:active{
+    outline: none;
+    background-color: #e15053;
+    color: #fff;
+}
+@media screen and ( min-width: 1200px ) {
+    .select{
+        position: relative;
+        z-index: 2;
+    }
+    .select-box1{
+        position: absolute;
+        right: 5px;
+        z-index: 2;
+    }
+    .select-box3{
+        position: absolute;
+        right: 5px;
+        z-index: 2;
+    }
+    .select-box2{
+        position: absolute;
+        top: -13rem;
+        right: -19.5rem;
+        z-index: 2;
+    }
+    .next{
+        margin: 0;
+    }
+}
+@media screen and ( max-width: 1200px ) {
+    .select{
+        position: relative;
+        z-index: 2;
+    }
+    .select-box1{
+        position: absolute;
+        right: 5px;
+        z-index: 2;
+    }
+    .select-box3{
+        position: absolute;
+        top: -8.2rem;
+        right:5px;
+        z-index: 2;
+    }
+    .select-box2{
+        position: absolute;
+        top: -13rem;
+        right: -9px;
+        z-index: 2;
+    }
+    .next{
+        margin: 0;
+    }
+}
+@media screen and ( max-width: 992px ) {
+    .select{
+        position: relative;
+        z-index: 2;
+    }
+    .select-box1{
+        position: absolute;
+        right: 5px;
+        z-index: 2;
+    }
+    .select-box3{
+        position: absolute;
+        right: 5px;
+        top: 17.2rem;
+        z-index: 2;
+    }
+    .select-box2{
+        position: absolute;
+        top: 13rem;
+        right: -9px;
+        z-index: 2;
+    }
+    .next{
+        margin: 0;
+    }
+}
+@media screen and ( max-width: 768px ) {
+    .select{
+        position: relative;
+        z-index: 2;
+    }
+    .select-box1{
+        position: absolute;
+        top: -16.9rem;
+        right: 5px;
+        z-index: 2;
+    }
+    .select-box3{
+        position: absolute;
+        right: 5px;
+        top: -25.6rem;
+        z-index: 2;
+    }
+    .select-box2{
+        position: absolute;
+        top:-13rem;
+        right: -9px;
+        z-index: 2;
+    }
+    .next{
+        margin-top: 36rem;
+    }
+}
+footer{
+    position: relative;
+    font-size: 0.8vmax;
+    padding-top: 1.9vw;
+    color: #999999;
+    font-weight: 500;
+    background-color: #f9f9f9;
+}
+@media screen and ( max-width: 768px ) {
+    footer{
+        text-align: center;
+    }
+}
+footer{
+    font-weight: 700;
+}
+footer .footer-title{
+    padding: 0;
+    margin-bottom: 1.7vw;
+}
+.about-us{
+    margin-top: -1vw;
+    color: #999999;
+}
+.about{
+    display: inline-block;
+    margin-top: 1vw;
+}
+.about a{
+    line-height: 1vw;
+    color: #999999;
+    text-decoration: none;
+}
+.about a:hover{
+    color: #1d7ad9;
+}
+.qrcode{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.9vw;
+}
+.qrcode p{
+    padding: 0;
+    margin:0;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.record{
+    font-size: 0.6vmax;
+    line-height: 1vw;
+    word-spacing: 4px;
+    text-align: center;
+    background-color: #1d7ad9;
+    border-top: 1px solid #1d7ad9;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.record p{
+    margin: 0;
+}
