@@ -416,10 +416,12 @@ footer{
 footer .footer-title{
     padding: 0;
     margin-bottom: 1.7vw;
+    text-align: center;
 }
 .about-us{
     margin-top: -1vw;
     color: #999999;
+    text-align: center;
 }
 .about{
     display: inline-block;
