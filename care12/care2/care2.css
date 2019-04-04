@@ -33,9 +33,9 @@ header {
   line-height: 4.2rem;
 }
 
-header button {
+header a {
   position: absolute;
-  top: 1rem;
+  top: 0.5rem;
   left: 1.8rem;
 }
 
@@ -158,6 +158,7 @@ main .skill .row .row-content .l-text {
 footer {
   width: 100%;
   padding-top: 0.5rem;
+  padding-bottom: 2rem;
   position: fixed;
   bottom: 0;
   background: #ffffff;

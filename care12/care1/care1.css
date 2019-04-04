@@ -143,6 +143,7 @@ main .list .list-box .location {
 
 footer {
   width: 100%;
+  padding-top: 0.5rem;
   position: fixed;
   background: #ffffff;
   bottom: 0;
