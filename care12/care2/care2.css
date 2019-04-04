@@ -157,6 +157,7 @@ main .skill .row .row-content .l-text {
 
 footer {
   width: 100%;
+  padding-top: 0.5rem;
   position: fixed;
   bottom: 0;
   background: #ffffff;
