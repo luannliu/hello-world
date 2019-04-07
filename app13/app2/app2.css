@@ -116,12 +116,13 @@ main .main-title::after {
 }
 
 main .main-title audio {
-  width: 26px;
   height: 26px;
+  opacity: 0;
+  z-index: 2;
   position: absolute;
   top: 0.7rem;
-  right: 0.5rem;
-  display: none;
+  right: 0rem;
+  transform: rotate(180deg);
 }
 
 main .main-title img {

@@ -37,6 +37,7 @@ a{
 $haeder-height:4.4rem;
 $border: 1.1px solid #ffffff;
 
+        
 header{
     position: fixed;
     top: 0;
@@ -113,12 +114,13 @@ main{
             border-color:#b9e9f5 transparent transparent transparent ;
         }
         audio{
-            width: 26px;
             height: 26px;
+            opacity: 0;
+            z-index: 2;
             position: absolute;
             top: 0.7rem;
-            right: 0.5rem;
-            display: none;
+            right: 0rem;
+            transform: rotate(180deg);
         }
         img{
             position: absolute;
