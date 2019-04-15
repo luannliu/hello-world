@@ -17,7 +17,7 @@ button {
 
 img {
   display: inline-block;
-  zoom: 0.5;
+  height: 70%;
 }
 
 span {
@@ -168,7 +168,7 @@ main .main-content .content-box .content-photo p {
 main .main-content .content-box .content-photo p:nth-child(1) {
   background: #f5c97b;
   height: 74%;
-  font-size: 1.5vmax;
+  font-size: 2vmax;
 }
 
 main .main-content .content-box .content-photo p:nth-child(2) {
@@ -176,7 +176,7 @@ main .main-content .content-box .content-photo p:nth-child(2) {
   background: #83b09a;
   color: #ffffff;
   height: 26%;
-  font-size: 1.1vmax;
+  font-size: 1.3vmax;
   font-weight: 100;
 }
 
@@ -187,6 +187,10 @@ main .main-content .content-box .content-hover {
   justify-content: space-between;
   margin-top: 1rem;
   margin-right: -0.5px;
+}
+
+main .main-content .content-box .content-hover img {
+  width: 4vw;
 }
 
 main .main-content .content-box:hover .content-hover {

@@ -14,7 +14,7 @@ button{
 }
 img{
     display: inline-block;
-    zoom: 0.5;
+    height: 70%;
 }
 span{
     display: inline-block;
@@ -154,14 +154,14 @@ main{
                     &:nth-child(1){
                         background: #f5c97b;
                         height: 74%;
-                        font-size: 1.5vmax;
+                        font-size: 2vmax;
                     }
                     &:nth-child(2){
                         bottom: 0;
                         background: #83b09a;
                         color: #ffffff;
                         height: 26%;
-                        font-size: 1.1vmax;
+                        font-size: 1.3vmax;
                         font-weight: 100;
                     }
                 }
@@ -172,6 +172,9 @@ main{
                 justify-content: space-between;
                 margin-top: 1rem;
                 margin-right: -0.5px;
+                img{
+                    width: 4vw;
+                }
             }
             &:hover .content-hover{
                 opacity: 1;
