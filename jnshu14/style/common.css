@@ -81,7 +81,7 @@ header .nav .visible-xs {
 header .nav .visible-xs img {
   float: left;
   margin: 1.4rem 1rem;
-  zoom: 0.2;
+  zoom: 0.5;
 }
 
 header .nav .visible-xs .nav-toggle-box label {
