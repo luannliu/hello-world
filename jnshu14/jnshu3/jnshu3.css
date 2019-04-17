@@ -75,6 +75,7 @@ main .nav ul li::before {
   background-color: #ffffff;
   border-radius: 50%;
   border: 1px solid #ff650e;
+  margin-right: 1rem;
 }
 
 main .nav ul li:hover, main .nav ul li :active {
@@ -83,10 +84,6 @@ main .nav ul li:hover, main .nav ul li :active {
 
 main .nav ul li:hover::before, main .nav ul li :active::before {
   background-color: #f9a372;
-}
-
-main .nav ul li a {
-  padding-left: 1rem;
 }
 
 main .nav ul li input {
