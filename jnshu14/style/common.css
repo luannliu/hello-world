@@ -74,6 +74,10 @@ header .nav .hidden-xs {
   zoom: 0.9;
 }
 
+header .nav .visible-xs {
+  height: 5rem;
+}
+
 header .nav .visible-xs img {
   float: left;
   margin: 1.4rem 1rem;
@@ -132,10 +136,7 @@ header .nav #checkbox {
 
 header .nav #checkbox:checked ~ .navul {
   display: block;
-}
-
-header .nav .navul {
-  text-align: right;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -163,6 +164,7 @@ header .nav .navul ul {
     left: 0;
     right: 0;
     width: 100%;
+    margin-top: -2rem;
     display: flex;
     flex-direction: column;
     justify-content: start;

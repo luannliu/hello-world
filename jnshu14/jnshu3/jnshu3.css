@@ -120,6 +120,24 @@ main .content .content-title p {
   padding: 3rem;
 }
 
+@media screen and (max-width: 567px) {
+  main .content .content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-indent: 2em;
+    padding: 3rem;
+  }
+  main .content .content-title img {
+    margin-left: 3rem;
+    padding: 1rem;
+  }
+  main .content .content-title p {
+    padding: 1rem;
+  }
+}
+
 main .content .article {
   padding-top: 2rem;
   text-indent: 2em;

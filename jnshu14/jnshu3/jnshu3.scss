@@ -143,6 +143,18 @@ main{
       p{
         padding: 3rem;
       }
+      @media screen and (max-width:567px) {
+        @include flex-c(space-between,center);
+        text-indent:2em;
+        padding: 3rem;
+        img{
+          margin-left: 3rem;
+          padding: 1rem;
+        }
+        p{
+          padding: 1rem;
+        }
+      }
     }
     .article{
       padding-top: 2rem;

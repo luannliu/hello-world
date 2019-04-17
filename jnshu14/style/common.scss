@@ -83,6 +83,7 @@ $border: 1px solid;
         zoom: 0.9;
        }
        .visible-xs{
+         height: 5rem;
         img{
           float: left;
           margin: 1.4rem 1rem;
@@ -125,9 +126,9 @@ $border: 1px solid;
        }
        #checkbox:checked ~ .navul{
          display: block;
+         margin-bottom: 3rem;
        }
        .navul{
-         text-align: right;
         @media screen and (max-width: 576px){
          display: none;
          height: 25rem;
@@ -147,6 +148,7 @@ $border: 1px solid;
           left: 0;
           right: 0;
           width: 100%;
+          margin-top: -2rem;
           @include flex-c(start,center );
         }
         li{
