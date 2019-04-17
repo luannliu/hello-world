@@ -86,7 +86,7 @@ main .nav ul li:hover::before, main .nav ul li :active::before {
 }
 
 main .nav ul li a {
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 main .nav ul li input {
