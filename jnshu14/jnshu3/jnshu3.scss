@@ -111,13 +111,15 @@ main{
           content: "";
           @include box(6px,6px,#ffffff,50%);
           border: $border #ff650e;
-          margin-right: 1rem; 
         }
         &:hover,:active{
           color: #ff650e;
           &::before{
             background-color: #f9a372;
           }
+        }
+        a{
+          padding-left: 1rem; 
         }
         input{
           display: none;
