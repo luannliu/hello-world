@@ -85,8 +85,8 @@ main .nav ul li:hover::before, main .nav ul li :active::before {
   background-color: #f9a372;
 }
 
-main .nav ul li button {
-  background: #ffffff;
+main .nav ul li a {
+  margin-left: 1rem;
 }
 
 main .nav ul li input {
