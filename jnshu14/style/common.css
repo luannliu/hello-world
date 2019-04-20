@@ -124,12 +124,6 @@ header .nav .visible-xs .nav-toggle-box label span {
   }
 }
 
-@media screen and (max-width: 576px) {
-  header .nav .visible-xs .nav-toggle-box {
-    display: block;
-  }
-}
-
 header .nav #checkbox {
   display: none;
 }
